@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: PMPL-1.0-or-later
+= FirmwareAudit.jl
+Jonathan D. A. Jewell <j.d.a.jewell@open.ac.uk>
+:toc:
+
+== Overview
+
+Firmware integrity auditing and verification toolkit for Julia.
+
+== Installation
+
+[source,julia]
+----
+using Pkg
+Pkg.add(url="https://github.com/hyperpolymath/FirmwareAudit.jl")
+----
+
+== License
+
+PMPL-1.0-or-later (MPL-2.0 fallback in Project.toml for Julia ecosystem compatibility).
