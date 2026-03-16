@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: PMPL-1.0-or-later
+# Clade declaration — part of the gv-clade-index registry
+# See: https://github.com/hyperpolymath/gv-clade-index
+
+[identity]
+uuid = "e660863e-9021-59db-8b63-1ee640b227fb"
+primary-forge = "github"
+primary-owner = "hyperpolymath"
+canonical-name = "FirmwareAudit.jl"
+prefixed-name = "sc-FirmwareAudit.jl"
+
+[clade]
+primary = "sc"
+secondary = []
+assigned = "2026-03-16"
+rationale = ""
+
+[forges]
+github = "hyperpolymath/FirmwareAudit.jl"
+gitlab = "hyperpolymath/FirmwareAudit.jl"
+bitbucket = "hyperpolymath/FirmwareAudit.jl"
+
+[lineage]
+type = "standalone"
+parent = "Julia package — firmware security auditing"
+born = "2026-03-16"
