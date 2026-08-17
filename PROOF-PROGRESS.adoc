@@ -1,0 +1,67 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
+// SPDX-FileCopyrightText: 2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+//
+// Proof Progress Snapshot — FirmwareAudit.jl
+// Generated: 2026-08-14
+
+= FirmwareAudit.jl — Proof/Verification Guarantee Progress Snapshot
+:toc:
+:icons: font
+
+This document provides an indicative state of progress on formal guarantees for
+the FirmwareAudit.jl Julia package as of 2026-08-14. It consolidates information from:
+
+- `README.md` — Project overview and firmware auditing claims
+- `src/` — Core implementation (structure to be examined)
+
+== Headline Status
+
+[cols="1,2,3",options="header"]
+|===
+| Component | Status | Details
+
+| Firmware integrity auditing | 🟡 TBC | Toolkit for Julia — status to be determined from codebase
+
+| Verification toolkit | 🟡 TBC | Auditing and verification capabilities
+|===
+
+**Overall:** FirmwareAudit.jl provides firmware integrity auditing and verification
+toolkit for Julia. The README states: "Firmware integrity auditing and verification
+toolkit for Julia." with MPL-2.0 licensing.
+
+**Status:** This document is a PLACEHOLDER. The actual implementation needs to be
+examined to determine the current state of proofs and verification.
+
+== To Be Completed
+
+This PROOF-PROGRESS.adoc file is a placeholder. To complete it:
+
+1. Examine `src/FirmwareAudit.jl` and other source files
+2. Examine `test/` directory for existing tests
+3. Examine `EXPLAINME.adoc` if it exists
+4. Document all formal verification content
+5. Document all proof-related claims from README
+6. Create tables for status, formal content, planned proofs, etc.
+
+== Current Understanding
+
+From README.md (25 lines):
+- Firmware integrity auditing and verification toolkit for Julia
+- Installation: Pkg.add(url="https://github.com/hyperpolymath/FirmwareAudit.jl")
+- License: MPL-2.0 (MPL-2.0 fallback in Project.toml for Julia ecosystem compatibility)
+
+== Next Steps
+
+1. Read `src/FirmwareAudit.jl` to understand implementation
+2. Read `test/runtests.jl` to understand test coverage
+3. Read any EXPLAINME.adoc or other documentation
+4. Update this file with actual verification status
+
+== Document Information
+
+[cols="1,2"]
+|===
+| Generated | 2026-08-14 |
+| Author | Mistral Vibe (on behalf of Jonathan D.A. Jewell) |
+| Status | PLACEHOLDER — needs completion |
+|===
