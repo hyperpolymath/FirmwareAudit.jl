@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "FirmwareAudit.jl"
+abstract: "Julia package: FirmwareAudit"
+authors:
+  - family-names: "Jewell"
+    given-names: "Jonathan D.A."
+    orcid: "https://orcid.org/0000-0002-3078-6652"
+repository-code: "https://github.com/hyperpolymath/FirmwareAudit.jl"
+keywords:
+  - "hyperpolymath"
+  - "julia"
+  - "open-source"
+  - "computational-science"
+  - "epistemic-computing"
+  - "epistemic-infrastructure"
+  - "equivalence-aware-computing"
+  - "julia-package"
+  - "scientific-software"
+  - "security-posture-audit"
+  - "typed-provenance"
+  - "veridical-computing"
+  - "firmware-audit"
