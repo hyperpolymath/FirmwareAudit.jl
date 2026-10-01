@@ -79,7 +79,8 @@ unsigned pushes. Estate policy:
 - **People and interactive agents** sign with an SSH key registered on GitHub
   as a *signing* key (`gpg.format=ssh`, `user.signingkey=<key>.pub`,
   `commit.gpgsign=true`). The committer email must be verified on that account.
-- **Apps, bots and workflows** never `git push` local commits. They write
+- **Apps, bots and workflows** never use `git push` to update GitHub branches
+  with locally created commits. They write those commits
   through the API (`createCommitOnBranch` or the estate `signed-push` action)
   so that GitHub signs each commit.
 - Merge PRs with **squash**. The ruleset checks every commit on the PR branch,
